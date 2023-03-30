@@ -1,0 +1,164 @@
+.show-task {
+  max-width: 770px;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0 0 10px 1px rgb(248, 239, 255);
+  padding: 20px 20px;
+  border-radius: 5px;
+  border-left: 6px solid rgb(99, 0, 164);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-bottom: 8px;
+}
+
+.title p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.checkbox {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 26px;
+  color: rgb(35, 0, 68);
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.description-text {
+  max-width: 550px;
+}
+
+.deadline-cont {
+  min-width: 150px;
+}
+
+.description p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.edit {
+  color: rgb(0, 0, 80);
+  font-size: 22px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.delete {
+  color: rgb(147, 0, 0);
+  font-size: 22px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.favorite {
+  font-size: 24px;
+  color: rgb(213, 213, 0);
+  cursor: pointer;
+}
+
+.deadline {
+  margin-right: 20px;
+  color: rgb(11, 0, 80);
+  font-size: 18px;
+}
+
+.task-list {
+  padding: 24px 0;
+}
+
+.edit-task {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.edittask-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-task-title {
+  height: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 10px;
+  border: 1px solid rgb(144, 144, 144);
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.edit-task-description {
+  resize: none;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px 10px;
+  height: 75px;
+  border: 1px solid rgb(144, 144, 144);
+  margin-bottom: 7px;
+  background-color: transparent;
+}
+
+.bottom-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-deadline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(143, 143, 143);
+  width: 100%;
+  background-color: transparent;
+}
+
+.task-deadline p {
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 0 10px;
+  margin: 5px 0;
+  color: rgb(94, 94, 94);
+}
+
+.deadline-date {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(94, 94, 94);
+  margin-right: 20px;
+}
+
+.add-btn {
+  width: 100px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid rgb(0, 0, 94);
+  background-color: rgb(0, 0, 94);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  color: rgb(0, 0, 94);
+  background-color: transparent;
+}

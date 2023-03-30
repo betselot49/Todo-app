@@ -1,0 +1,15 @@
+.done-header {
+  text-align: center;
+  padding-top: 60px;
+  margin-top: 0;
+}
+
+.done-bg-image {
+  color: rgb(0, 0, 0);
+  background-image: url("../../Assets/todo-back.jpg");
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+}

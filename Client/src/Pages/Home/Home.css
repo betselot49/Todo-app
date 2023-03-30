@@ -1,0 +1,10 @@
+.home-bg-image {
+    color: rgb(0, 0, 0);
+    background-image: url("../../Assets/todo-back.jpg");
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}

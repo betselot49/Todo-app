@@ -1,0 +1,86 @@
+.addtask {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 50px;
+}
+
+.addtask-form {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(123, 123, 123);
+  padding-bottom: 70px;
+  background-color: transparent;
+}
+
+.todo-form-header {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(0, 0, 94);
+  margin-bottom: 30px;
+}
+
+.task-title {
+  height: 40px;
+  font-size: 20px;
+  padding: 0 10px;
+  border: 1px solid rgb(143, 143, 143);
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.task-description {
+  resize: none;
+  font-size: 20px;
+  padding: 10px 10px;
+  height: 75px;
+  border: 1px solid rgb(143, 143, 143);
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+.bottom-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-deadline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(143, 143, 143);
+  width: 100%;
+}
+
+.task-deadline p {
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 5px 0;
+  color: rgb(44, 44, 44);
+}
+
+.deadline-date {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(176, 176, 176);
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+.add-btn {
+  width: 100px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid rgb(0, 0, 94);
+  background-color: rgb(0, 0, 94);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  color: rgb(0, 0, 94);
+  background-color: transparent;
+}
